@@ -1,0 +1,179 @@
+body{
+    margin: 0%;
+}
+@media (min-width:320px) and (max-width:480px){
+    .logoandnav{
+        display: flex;
+    }
+    img{
+        padding: 30px;
+        width:100px;
+        height:100px;
+    }
+    nav{
+        display: inline;
+        display: flex;
+        margin-top: 30px;
+        margin-left: -50px;
+    }
+    .d2{
+        width: 10px;
+        position: relative;
+    }
+    .d3{
+        text-align: center;
+        margin-left: 0px;
+    }
+    h1{
+        margin-left: 200px;
+    }
+    .pd3{
+        /* margin-left: 150px; */
+        width: 300px;
+    }
+    .d4567{
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+        gap: 25px;
+        float: left;
+        margin: 0%;
+        width: 30px;
+    }
+    .d4{
+        height: 900px;
+        width: 175px;
+        margin-left: -180px;
+        margin-top: 300px;
+    }
+    .d5{
+        height: 900px;
+        width: 175px;
+        margin-left: -50px;
+        margin-top: 300px;
+    }
+    .d6{
+        height: 900px;
+        width: 175px;
+        margin-left: -180px;
+    }
+    .d7{
+        height: 900px;
+        width: 175px;
+        margin-left: -50px;
+    }
+    .innerdiv{
+        /* display: flex; */
+        position: relative;
+        /* justify-self: flex-start; */
+        left: -120px;
+        padding: 0px;
+    }
+
+}
+.d1{
+    background-image: url(./shara\ desert.jpg);
+    height: 100vh;
+    background-size: cover;
+    overflow-x: hidden;
+}
+nav{
+    float: right;
+    display: flex;
+    margin-top: 30px;
+    padding: 10px;
+    margin-right: 100px;
+}
+img{
+    padding: 30px;
+}
+.d2{
+    margin-left: 50px;
+    color: aliceblue;
+    /* transition: 1s; */
+    padding: 10px;
+}
+/* .d2:hover{
+    background-color: black;
+    transform: scale(1.5);
+} */
+.d3{
+    display: inline-block;
+    width: 50%;
+    color: white;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+}
+.pd3{
+    padding: 30px;
+    transition: 1s;
+}
+.pd3:hover{
+    background-color: black;
+    color: red;
+    border-radius: 45px;
+}
+.innerdiv{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    margin-left: 250px;
+    border-radius: 15px;
+    font-weight: bolder;
+    transition: 1s;
+}
+.innerdiv:hover{
+    color: red;
+    background-color: skyblue;
+}
+.d4567{
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 50%;
+    margin-top: -300px;
+    text-align: center;
+    gap: 25px;
+}
+.d4{
+    background-image: url(./pic-1.png);
+    background-size: cover;
+    border-radius: 15px;
+    height: 300px;
+    transition: 2s;
+}
+.d4 :hover{
+    box-shadow: 15px 10px 10px 15px white;
+}
+
+.d5{
+    background-image: url(./pic-2.png);
+    background-size: cover;
+    border-radius: 15px;
+    height: 300px;
+    transition: 2s;
+}
+.d5 :hover{
+    box-shadow: 15px 10px 10px 10px white;
+}
+
+.d6{
+    background-image: url(./pic-3.png);
+    background-size: cover;
+    border-radius: 15px;
+    height: 300px;
+    transition: 2s;
+}
+.d7{
+    background-image: url(./pic-4.png);
+    background-size: cover;
+    border-radius: 15px;
+    height: 300px;
+    transition: 2s;
+}
