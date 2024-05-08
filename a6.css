@@ -32,7 +32,8 @@ body{
         width: 300px;
     }
     .d4567{
-        display: grid;
+        display: flex;
+        flex-direction: column;
         grid-template-columns: auto auto;
         text-align: center;
         gap: 25px;
@@ -43,30 +44,32 @@ body{
     .d4{
         height: 900px;
         width: 175px;
-        margin-left: -180px;
-        margin-top: 300px;
+        margin-left: -100px;
+        margin-top: 350px;
     }
     .d5{
         height: 900px;
         width: 175px;
-        margin-left: -50px;
-        margin-top: 300px;
+        margin-left: -250px;
+        margin-top: 700px;
     }
     .d6{
         height: 900px;
         width: 175px;
-        margin-left: -180px;
+        margin-left: -100px;
     }
     .d7{
         height: 900px;
         width: 175px;
-        margin-left: -50px;
+        margin-left: -250px;
+        margin-top: 350px;
+
     }
     .innerdiv{
         /* display: flex; */
         position: relative;
         /* justify-self: flex-start; */
-        left: -120px;
+        left: -150px;
         padding: 0px;
     }
 
