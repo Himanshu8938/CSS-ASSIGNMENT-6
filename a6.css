@@ -152,10 +152,6 @@ h1{
     background-size: cover;
     border-radius: 15px;
     height: 300px;
-    transition: 2s;
-}
-.d4 :hover{
-    box-shadow: 15px 10px 10px 15px white;
 }
 
 .d5{
@@ -163,10 +159,6 @@ h1{
     background-size: cover;
     border-radius: 15px;
     height: 300px;
-    transition: 2s;
-}
-.d5 :hover{
-    box-shadow: 15px 10px 10px 10px white;
 }
 
 .d6{
@@ -174,12 +166,10 @@ h1{
     background-size: cover;
     border-radius: 15px;
     height: 300px;
-    transition: 2s;
 }
 .d7{
     background-image: url(./pic-4.png);
     background-size: cover;
     border-radius: 15px;
     height: 300px;
-    transition: 2s;
 }
